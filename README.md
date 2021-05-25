@@ -26,6 +26,11 @@ abbrev = abbrev + name[0]
 print(abbrev)
 ```
 
+### Quality-Adjusted-Life-Year
+```QUALY
+print('%.3f' % sum((lambda z: float(z[0])*float(z[1]))(input().split()) for _ in range(int(input()))))
+```
+
 
 ### Support or Contact
 
