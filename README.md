@@ -4,14 +4,6 @@ You can use the [editor on GitHub](https://github.com/PraveenRamR/Kattis-Program
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Hello World
-
-Kattis Hello World Python Code
-
-```Hello World
-print("Hello, World!")
-
-```
 
 ### Autori
 
