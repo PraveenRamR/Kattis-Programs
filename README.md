@@ -10,11 +10,10 @@ Kattis Hello World Python Code
 
 ```Hello World
 print("Hello, World!")
+
 ```
 
 ### Autori
-
-Kattis Autori Python Code
 
 ```Autori
 names = input(" Enter Name: ")
@@ -24,6 +23,7 @@ for name in names.split("-"):
 abbrev = abbrev + name[0]
 
 print(abbrev)
+
 ```
 
 ### Quality-Adjusted-Life-Year
