@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 This page contains the solutions for the problems in kattis. 
-You can also have a look at this [GitHub Repo ] https://github.com/PraveenRamR/Kattis-Programs
+You can also have a look at this [GitHub Repo ](https://github.com/PraveenRamR/Kattis-Programs)
 
 
 ### Autori
