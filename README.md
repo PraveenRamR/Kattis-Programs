@@ -46,6 +46,86 @@ for i in input().split():
 print(count)
 ```
 
+### Cryptographer's Conundrum
+```CC
+cipher = input()
+replacement = "PER"
+replacementIndex = 0
+count = 0
+for index in range(len(cipher)):
+    if(cipher[index] != replacement[replacementIndex]):
+        count+=1
+    replacementIndex = (replacementIndex + 1) % 3 
+print(count)
+```
+
+### Hello World
+```Hello World
+print("Hello World!")
+```
+
+### Hissing Microphone
+```HM
+string = input()
+flag = False
+for index in range(len(string) - 1): 
+	if(string[index] == 's' and string[index + 1] == 's'):
+		print('hiss')
+		flag = True
+		break
+if(not flag):
+	print('no hiss')
+```
+
+### Line Them Up
+```LTU
+import sys
+import string
+
+input = sys.stdin.read()
+line = input.split("\n")
+n = line[0]
+line = line[1:-1]
+
+if sorted(line) == line:
+    print ("INCREASING")
+elif line == sorted(line)[::-1]:
+    print ("DECREASING")
+else:
+    print ("NEITHER")
+```
+
+### Quadrant Selection
+```QS
+x = int(input())
+y = int(input())
+if(x > 0 and y > 0):
+	print(1)
+elif(x < 0 and y > 0):
+	print(2)
+elif(x < 0 and y < 0):
+	print(3)
+else:
+	print(4)
+```
+
+### Struck in a time loop
+```SIATL
+  
+n = int(input())
+for i in range(1, n + 1):
+	print(i , "Abracadabra")
+```
+
+### Take Two Stones
+```TTS
+num = int(input())
+
+if(num %2 == 0):
+    print("Bob")
+else:
+    print("Alice")
+```
 
 
 ### Support or Contact
