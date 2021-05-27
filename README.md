@@ -13,14 +13,14 @@ for name in names.split("-"):
 abbrev = abbrev + name[0]
 
 print(abbrev)
-Autori.py
 ```
+[Autori](https://github.com/PraveenRamR/Kattis-Programs/blob/main/Autori.py)
 
 ### Quality-Adjusted-Life-Year
 ```QUALY
 print('%.3f' % sum((lambda z: float(z[0])*float(z[1]))(input().split()) for _ in range(int(input()))))
 ```
-
+[Quality-Adjusted-Life-Year](https://github.com/PraveenRamR/Kattis-Programs/blob/main/Quality-Adjusted-Life-Year.py)
 ### R2
 
 ```R2
