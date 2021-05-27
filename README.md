@@ -61,7 +61,8 @@ print(count)
 
 ### Hello World
 ```Hello World
-print("Hello World!")
+#We have to print Hello World!
+print("Hello, World!")
 ```
 
 ### Hissing Microphone
@@ -127,6 +128,17 @@ else:
     print("Alice")
 ```
 
+### Tarifa
+```Tarifa
+X = int(input())
+N = int(input())
+total = X
+
+for _ in range(N):
+    total = (total - int(input())) + X
+
+print(total)
+```
 
 ### Support or Contact
 
