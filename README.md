@@ -32,6 +32,21 @@ r2 = s * 2 - r1
 print(r2)
 ```
 
+### Cold-Puter Science
+
+```CPS
+num = int(input())
+count = 0
+
+for i in input().split():
+	temp = int(i)
+	if(temp < 0):
+		count += 1
+
+print(count)
+```
+
+
 
 ### Support or Contact
 
