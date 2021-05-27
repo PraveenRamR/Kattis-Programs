@@ -21,6 +21,17 @@ print(abbrev)
 print('%.3f' % sum((lambda z: float(z[0])*float(z[1]))(input().split()) for _ in range(int(input()))))
 ```
 
+### R2
+
+```R2
+(r1, s) = input().split(" ")
+r1 = int(r1)
+s = int(s)
+
+r2 = s * 2 - r1
+print(r2)
+```
+
 
 ### Support or Contact
 
