@@ -1,3 +1,4 @@
+#Coded by R Praveen Ram
 (x, y, n) = input().split()
 x = int(x)
 y = int(y)
