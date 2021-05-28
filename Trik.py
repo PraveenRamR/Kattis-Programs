@@ -1,3 +1,4 @@
+#Coded by R Praveen Ram
 moves = input()
 position = 1
 for move in moves:
