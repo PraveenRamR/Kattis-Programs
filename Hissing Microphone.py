@@ -1,3 +1,4 @@
+#Coded by R Praveen Ram
 string = input()
 flag = False
 for index in range(len(string) - 1): 
