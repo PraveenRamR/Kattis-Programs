@@ -1,3 +1,4 @@
+#Coded by R Praveen Ram
 string = input()
 result = string[0]
 
