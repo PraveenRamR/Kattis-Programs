@@ -1,3 +1,4 @@
+#Coded by R Praveen Ram
 margin = 1
 computerWidth, computerHeight, stickerWidth, stickerHeight = list(map(int, input().split()))
 willFitHorizontally = margin + stickerWidth + margin <= computerWidth
