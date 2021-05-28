@@ -1,3 +1,4 @@
+#Coded by R Praveen Ram
 num = int(input())
 count = 0
 
