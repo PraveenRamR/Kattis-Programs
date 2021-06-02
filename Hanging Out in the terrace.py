@@ -1,3 +1,4 @@
+#Coded by Praveen Ram R
 L, x = list(map(int, input().split()))
 deny, total = 0, 0
 for _ in range(x):
